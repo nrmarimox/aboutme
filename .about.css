@@ -1,0 +1,98 @@
+* {
+  margin:0;
+  padding:0;
+  color: #685454;
+  font-family: 'Unbounded', cursive;
+}
+body {
+    background-image: url(大理石2.jpg);
+}
+.content-top {
+  background-color:#f9f7f7;
+  height:10vw;
+  padding:10px 0;
+  display:flex;
+  width:80%;
+  margin:30px auto;
+}
+.content-img img {
+  height:20vw;
+  width:35vw;
+
+}
+.content-img {
+  padding:30px 80px;
+}
+.name p {
+font-size:70px;
+  font-weight: bold;
+  letter-spacing:2px;
+width:80vw;
+text-align:center;
+margin-top:40px;
+}
+.main-content {
+  background-color:#f9f7f7;
+  height:60vw;
+  border-radius:5px;
+  width:80%;
+  margin:30px auto;
+  text-align:center;
+
+}
+.content-img img {
+  margin-top:45px;
+}
+.main-content p {
+  font-size:22px;
+margin:0 auto;
+padding-top:30px;
+    width:80%;
+}
+
+
+
+@media (max-width: 1000px) {
+
+.name p {
+  font-size:20px;
+  margin-top:5px;
+}
+.img {
+width:50vw;
+}
+.content-top {
+  width:80%;
+}
+.main-content {
+  width:10vw;
+}
+.content-img img {
+  margin-top:0px;
+}
+.content-img img {
+  height:40vw;
+  width:60vw;
+position:absolute;
+top:45vw;
+left:20vw;
+}
+.content-p p {
+font-size:18px;
+width:70%;
+text-align:center;
+width;70%;
+}
+
+.main-content {
+
+  height:50rem;
+
+width:80%;
+  margin:30px auto;
+}
+.content-p {
+  width:70%;
+    margin:40vw auto;
+}
+}
